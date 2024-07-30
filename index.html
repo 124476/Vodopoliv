@@ -1,0 +1,773 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Soft V main site">
+    <link rel="apple-touch-icon" href="/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Ландшафтный дизайн</title>
+    <script defer="" src="/static/js/bundle.js"></script>
+    <style>body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9pbmRleC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxTQUFTO0VBQ1Q7O2NBRVk7RUFDWixtQ0FBbUM7RUFDbkMsa0NBQWtDO0FBQ3BDOztBQUVBO0VBQ0U7YUFDVztBQUNiIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSB7XG4gIG1hcmdpbjogMDtcbiAgZm9udC1mYW1pbHk6IC1hcHBsZS1zeXN0ZW0sIEJsaW5rTWFjU3lzdGVtRm9udCwgJ1NlZ29lIFVJJywgJ1JvYm90bycsICdPeHlnZW4nLFxuICAgICdVYnVudHUnLCAnQ2FudGFyZWxsJywgJ0ZpcmEgU2FucycsICdEcm9pZCBTYW5zJywgJ0hlbHZldGljYSBOZXVlJyxcbiAgICBzYW5zLXNlcmlmO1xuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcbiAgLW1vei1vc3gtZm9udC1zbW9vdGhpbmc6IGdyYXlzY2FsZTtcbn1cblxuY29kZSB7XG4gIGZvbnQtZmFtaWx5OiBzb3VyY2UtY29kZS1wcm8sIE1lbmxvLCBNb25hY28sIENvbnNvbGFzLCAnQ291cmllciBOZXcnLFxuICAgIG1vbm9zcGFjZTtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */
+
+    </style>
+    <style>/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jc3MvcmVzZXQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7Q0FHQzs7QUFFRDs7Ozs7Ozs7Ozs7OztDQWFDLHNCQUFzQjtDQUN0QixTQUFTO0NBQ1QsVUFBVTtDQUNWLFNBQVM7Q0FDVCxlQUFlO0NBQ2YsYUFBYTtDQUNiLHdCQUF3QjtBQUN6QjtBQUNBLGdEQUFnRDtBQUNoRDs7Q0FFQyxjQUFjO0FBQ2Y7QUFDQTtDQUNDLGNBQWM7QUFDZjtBQUNBO0NBQ0MsZ0JBQWdCO0FBQ2pCO0FBQ0E7Q0FDQyxZQUFZO0FBQ2I7QUFDQTs7Q0FFQyxXQUFXO0NBQ1gsYUFBYTtBQUNkO0FBQ0E7Q0FDQyx5QkFBeUI7Q0FDekIsaUJBQWlCO0FBQ2xCIiwic291cmNlc0NvbnRlbnQiOlsiLyogaHR0cDovL21leWVyd2ViLmNvbS9lcmljL3Rvb2xzL2Nzcy9yZXNldC8gXG4gICB2Mi4wIHwgMjAxMTAxMjZcbiAgIExpY2Vuc2U6IG5vbmUgKHB1YmxpYyBkb21haW4pXG4qL1xuXG5odG1sLCBib2R5LCBkaXYsIHNwYW4sIGFwcGxldCwgb2JqZWN0LCBpZnJhbWUsXG5oMSwgaDIsIGgzLCBoNCwgaDUsIGg2LCBwLCBibG9ja3F1b3RlLCBwcmUsXG5hLCBhYmJyLCBhY3JvbnltLCBhZGRyZXNzLCBiaWcsIGNpdGUsIGNvZGUsXG5kZWwsIGRmbiwgZW0sIGltZywgaW5zLCBrYmQsIHEsIHMsIHNhbXAsXG5zbWFsbCwgc3RyaWtlLCBzdHJvbmcsIHN1Yiwgc3VwLCB0dCwgdmFyLFxuYiwgdSwgaSwgY2VudGVyLFxuZGwsIGR0LCBkZCwgb2wsIHVsLCBsaSxcbmZpZWxkc2V0LCBmb3JtLCBsYWJlbCwgbGVnZW5kLFxudGFibGUsIGNhcHRpb24sIHRib2R5LCB0Zm9vdCwgdGhlYWQsIHRyLCB0aCwgdGQsXG5hcnRpY2xlLCBhc2lkZSwgY2FudmFzLCBkZXRhaWxzLCBlbWJlZCwgXG5maWd1cmUsIGZpZ2NhcHRpb24sIGZvb3RlciwgaGVhZGVyLCBoZ3JvdXAsIFxubWVudSwgbmF2LCBvdXRwdXQsIHJ1YnksIHNlY3Rpb24sIHN1bW1hcnksXG50aW1lLCBtYXJrLCBhdWRpbywgdmlkZW8ge1xuXHRib3gtc2l6aW5nOiBib3JkZXItYm94O1xuXHRtYXJnaW46IDA7XG5cdHBhZGRpbmc6IDA7XG5cdGJvcmRlcjogMDtcblx0Zm9udC1zaXplOiAxMDAlO1xuXHRmb250OiBpbmhlcml0O1xuXHR2ZXJ0aWNhbC1hbGlnbjogYmFzZWxpbmU7XG59XG4vKiBIVE1MNSBkaXNwbGF5LXJvbGUgcmVzZXQgZm9yIG9sZGVyIGJyb3dzZXJzICovXG5hcnRpY2xlLCBhc2lkZSwgZGV0YWlscywgZmlnY2FwdGlvbiwgZmlndXJlLCBcbmZvb3RlciwgaGVhZGVyLCBoZ3JvdXAsIG1lbnUsIG5hdiwgc2VjdGlvbiB7XG5cdGRpc3BsYXk6IGJsb2NrO1xufVxuYm9keSB7XG5cdGxpbmUtaGVpZ2h0OiAxO1xufVxub2wsIHVsIHtcblx0bGlzdC1zdHlsZTogbm9uZTtcbn1cbmJsb2NrcXVvdGUsIHEge1xuXHRxdW90ZXM6IG5vbmU7XG59XG5ibG9ja3F1b3RlOmJlZm9yZSwgYmxvY2txdW90ZTphZnRlcixcbnE6YmVmb3JlLCBxOmFmdGVyIHtcblx0Y29udGVudDogJyc7XG5cdGNvbnRlbnQ6IG5vbmU7XG59XG50YWJsZSB7XG5cdGJvcmRlci1jb2xsYXBzZTogY29sbGFwc2U7XG5cdGJvcmRlci1zcGFjaW5nOiAwO1xufSJdLCJzb3VyY2VSb290IjoiIn0= */
+
+    </style>
+    <style>header {
+    background-color: #fff;
+    color: var(--dark-color);
+}
+.container-mini {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.menu {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu__logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: var(--dark-color);
+    text-decoration: none;
+}
+.menu__logo img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+}
+.menu__logo p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+}
+.menu__nav {
+
+}
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav__link {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+}
+.nav__link-button {
+    border: 2px solid var(--accent-color);
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: var(--accent-color);
+    cursor: pointer;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jc3MvbWVudS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxzQkFBc0I7SUFDdEIsd0JBQXdCO0FBQzVCO0FBQ0E7SUFDSSxnQkFBZ0I7SUFDaEIsY0FBYztBQUNsQjtBQUNBO0lBQ0ksaUJBQWlCO0lBQ2pCLG9CQUFvQjtJQUNwQixhQUFhO0lBQ2IsOEJBQThCO0lBQzlCLG1CQUFtQjtBQUN2QjtBQUNBO0lBQ0ksYUFBYTtJQUNiLG1CQUFtQjtJQUNuQixTQUFTO0lBQ1Qsd0JBQXdCO0lBQ3hCLHFCQUFxQjtBQUN6QjtBQUNBO0lBQ0ksV0FBVztJQUNYLFlBQVk7SUFDWixpQkFBaUI7QUFDckI7QUFDQTtJQUNJLHlCQUF5QjtJQUN6QixnQkFBZ0I7SUFDaEIsZUFBZTtBQUNuQjtBQUNBOztBQUVBO0FBQ0E7SUFDSSxhQUFhO0lBQ2IsbUJBQW1CO0lBQ25CLFNBQVM7QUFDYjtBQUNBO0lBQ0kscUJBQXFCO0lBQ3JCLHdCQUF3QjtJQUN4QixnQkFBZ0I7SUFDaEIsZUFBZTtJQUNmLGlCQUFpQjtBQUNyQjtBQUNBO0lBQ0kscUNBQXFDO0lBQ3JDLG1CQUFtQjtJQUNuQixrQkFBa0I7SUFDbEIsc0JBQXNCO0lBQ3RCLDBCQUEwQjtJQUMxQixlQUFlO0FBQ25CIiwic291cmNlc0NvbnRlbnQiOlsiaGVhZGVyIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICAgIGNvbG9yOiB2YXIoLS1kYXJrLWNvbG9yKTtcbn1cbi5jb250YWluZXItbWluaSB7XG4gICAgbWF4LXdpZHRoOiA5NjBweDtcbiAgICBtYXJnaW46IDAgYXV0bztcbn1cbi5tZW51IHtcbiAgICBwYWRkaW5nLXRvcDogMTBweDtcbiAgICBwYWRkaW5nLWJvdHRvbTogMTBweDtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xufVxuLm1lbnVfX2xvZ28ge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBnYXA6IDIwcHg7XG4gICAgY29sb3I6IHZhcigtLWRhcmstY29sb3IpO1xuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbn1cbi5tZW51X19sb2dvIGltZyB7XG4gICAgd2lkdGg6IDY1cHg7XG4gICAgaGVpZ2h0OiA2NXB4O1xuICAgIG9iamVjdC1maXQ6IGNvdmVyO1xufVxuLm1lbnVfX2xvZ28gcCB7XG4gICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICBmb250LXdlaWdodDogNzAwO1xuICAgIGZvbnQtc2l6ZTogMjhweDtcbn1cbi5tZW51X19uYXYge1xuICAgIFxufVxuLm5hdl9fbGlzdCB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIGdhcDogMjBweDtcbn1cbi5uYXZfX2xpbmsge1xuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICBjb2xvcjogdmFyKC0tZGFyay1jb2xvcik7XG4gICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICBmb250LXNpemU6IDIwcHg7XG4gICAgbGluZS1oZWlnaHQ6IDIwcHg7XG59XG4ubmF2X19saW5rLWJ1dHRvbiB7XG4gICAgYm9yZGVyOiAycHggc29saWQgdmFyKC0tYWNjZW50LWNvbG9yKTtcbiAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICAgIHBhZGRpbmc6IDEwcHggMjBweDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICAgIGNvbG9yOiB2YXIoLS1hY2NlbnQtY29sb3IpO1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0= */
+
+    </style>
+    <style>.info {
+    margin: 0 30px;
+    background-color: var(--accent-color);
+    border-radius: 20px;
+    object-fit: cover;
+}
+.info-content {
+    padding: 86px 80px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 32px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.info-text {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.info-picture img {
+    width: 550px;
+    object-fit: cover;
+}
+.promo-button {
+    font-size: 20px;
+    border: 1px solid #343434;
+    padding: 15px 40px;
+    color: #fff;
+    background-color: #343434;
+    border-radius: 10px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jc3MvaW5mby5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxjQUFjO0lBQ2QscUNBQXFDO0lBQ3JDLG1CQUFtQjtJQUNuQixpQkFBaUI7QUFDckI7QUFDQTtJQUNJLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsZ0JBQWdCO0lBQ2hCLGVBQWU7SUFDZixnQkFBZ0I7SUFDaEIsbUJBQW1CO0lBQ25CLGFBQWE7SUFDYiw4QkFBOEI7SUFDOUIsU0FBUztBQUNiO0FBQ0E7SUFDSSxnQkFBZ0I7SUFDaEIsbUJBQW1CO0FBQ3ZCO0FBQ0E7SUFDSSxZQUFZO0lBQ1osaUJBQWlCO0FBQ3JCO0FBQ0E7SUFDSSxlQUFlO0lBQ2YseUJBQXlCO0lBQ3pCLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gseUJBQXlCO0lBQ3pCLG1CQUFtQjtBQUN2QiIsInNvdXJjZXNDb250ZW50IjpbIi5pbmZvIHtcbiAgICBtYXJnaW46IDAgMzBweDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1hY2NlbnQtY29sb3IpO1xuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XG4gICAgb2JqZWN0LWZpdDogY292ZXI7XG59XG4uaW5mby1jb250ZW50IHtcbiAgICBwYWRkaW5nOiA4NnB4IDgwcHg7XG4gICAgY29sb3I6ICNmZmY7XG4gICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICBmb250LXNpemU6IDMycHg7XG4gICAgbWFyZ2luLXRvcDogMzBweDtcbiAgICBtYXJnaW4tYm90dG9tOiAzMHB4O1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICAgIGdhcDogNTBweDtcbn1cbi5pbmZvLXRleHQge1xuICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gICAgbWFyZ2luLWJvdHRvbTogNDBweDtcbn1cbi5pbmZvLXBpY3R1cmUgaW1nIHtcbiAgICB3aWR0aDogNTUwcHg7XG4gICAgb2JqZWN0LWZpdDogY292ZXI7XG59XG4ucHJvbW8tYnV0dG9uIHtcbiAgICBmb250LXNpemU6IDIwcHg7XG4gICAgYm9yZGVyOiAxcHggc29saWQgIzM0MzQzNDtcbiAgICBwYWRkaW5nOiAxNXB4IDQwcHg7XG4gICAgY29sb3I6ICNmZmY7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzM0MzQzNDtcbiAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */
+
+    </style>
+    <style>.target-consumer {
+}
+.target-consumer__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.target__content-2col{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.target-picture{
+    width: 100%;
+    padding: 0;
+}
+.target-consumer__block {
+    width: 580px;
+    padding: 40px;
+    border: 1px solid #343434 transparent;
+    border-radius: 20px;
+    background-color: #fff;
+}
+.target-text3{
+    margin-top: 30px;
+}
+.target-text {
+    margin-top: 20px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jc3MvdGFyZ2V0LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7SUFDSSxhQUFhO0lBQ2IsOEJBQThCO0lBQzlCLFNBQVM7QUFDYjtBQUNBO0lBQ0ksYUFBYTtJQUNiLGVBQWU7SUFDZixTQUFTO0FBQ2I7QUFDQTtJQUNJLFdBQVc7SUFDWCxVQUFVO0FBQ2Q7QUFDQTtJQUNJLFlBQVk7SUFDWixhQUFhO0lBQ2IscUNBQXFDO0lBQ3JDLG1CQUFtQjtJQUNuQixzQkFBc0I7QUFDMUI7QUFDQTtJQUNJLGdCQUFnQjtBQUNwQjtBQUNBO0lBQ0ksZ0JBQWdCO0FBQ3BCIiwic291cmNlc0NvbnRlbnQiOlsiLnRhcmdldC1jb25zdW1lciB7XG59XG4udGFyZ2V0LWNvbnN1bWVyX19jb250ZW50IHtcbiAgICBkaXNwbGF5OiBncmlkO1xuICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyIDFmcjtcbiAgICBnYXA6IDIwcHg7XG59XG4udGFyZ2V0X19jb250ZW50LTJjb2x7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LXdyYXA6IHdyYXA7XG4gICAgZ2FwOiAyMHB4O1xufVxuLnRhcmdldC1waWN0dXJle1xuICAgIHdpZHRoOiAxMDAlO1xuICAgIHBhZGRpbmc6IDA7XG59XG4udGFyZ2V0LWNvbnN1bWVyX19ibG9jayB7XG4gICAgd2lkdGg6IDU4MHB4O1xuICAgIHBhZGRpbmc6IDQwcHg7XG4gICAgYm9yZGVyOiAxcHggc29saWQgIzM0MzQzNCB0cmFuc3BhcmVudDtcbiAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XG59XG4udGFyZ2V0LXRleHQze1xuICAgIG1hcmdpbi10b3A6IDMwcHg7XG59XG4udGFyZ2V0LXRleHQge1xuICAgIG1hcmdpbi10b3A6IDIwcHg7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9 */
+
+    </style>
+    <style>.programs {
+}
+.programs__block {
+    display: flex;
+    align-items: center;
+    background-color: var(--accent-color);
+    border-radius: 20px;
+}
+.programs__picture {
+}
+.programs__content {
+    color: #fff;
+}
+.programs__content-text {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.programs__content-button {
+    font-size: 20px;
+    border: 1px solid #343434;
+    padding: 15px 40px;
+    color: #fff;
+    background-color: #343434;
+    border-radius: 10px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jc3MvcHJvZ3JhbXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0FBQ0E7QUFDQTtJQUNJLGFBQWE7SUFDYixtQkFBbUI7SUFDbkIscUNBQXFDO0lBQ3JDLG1CQUFtQjtBQUN2QjtBQUNBO0FBQ0E7QUFDQTtJQUNJLFdBQVc7QUFDZjtBQUNBO0lBQ0ksZ0JBQWdCO0lBQ2hCLG1CQUFtQjtBQUN2QjtBQUNBO0lBQ0ksZUFBZTtJQUNmLHlCQUF5QjtJQUN6QixrQkFBa0I7SUFDbEIsV0FBVztJQUNYLHlCQUF5QjtJQUN6QixtQkFBbUI7QUFDdkIiLCJzb3VyY2VzQ29udGVudCI6WyIucHJvZ3JhbXMge1xufVxuLnByb2dyYW1zX19ibG9jayB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWFjY2VudC1jb2xvcik7XG4gICAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cbi5wcm9ncmFtc19fcGljdHVyZSB7XG59XG4ucHJvZ3JhbXNfX2NvbnRlbnQge1xuICAgIGNvbG9yOiAjZmZmO1xufVxuLnByb2dyYW1zX19jb250ZW50LXRleHQge1xuICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gICAgbWFyZ2luLWJvdHRvbTogNDBweDtcbn1cbi5wcm9ncmFtc19fY29udGVudC1idXR0b24ge1xuICAgIGZvbnQtc2l6ZTogMjBweDtcbiAgICBib3JkZXI6IDFweCBzb2xpZCAjMzQzNDM0O1xuICAgIHBhZGRpbmc6IDE1cHggNDBweDtcbiAgICBjb2xvcjogI2ZmZjtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzQzNDM0O1xuICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XG59Il0sInNvdXJjZVJvb3QiOiIifQ== */
+
+    </style>
+    <style>.advantages {
+}
+.advantages__blocks {
+    display: flex;
+    gap: 20px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jc3MvYWR2YW50YWdlcy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0lBQ0ksYUFBYTtJQUNiLFNBQVM7QUFDYiIsInNvdXJjZXNDb250ZW50IjpbIi5hZHZhbnRhZ2VzIHtcbn1cbi5hZHZhbnRhZ2VzX19ibG9ja3Mge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZ2FwOiAyMHB4O1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */
+
+    </style>
+    <style>.facilities {
+}
+.facilities-text {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jc3MvZmFjaWxpdGllcy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBO0lBQ0ksZUFBZTtJQUNmLG1CQUFtQjtBQUN2QiIsInNvdXJjZXNDb250ZW50IjpbIi5mYWNpbGl0aWVzIHtcbn1cbi5mYWNpbGl0aWVzLXRleHQge1xuICAgIGZvbnQtc2l6ZTogMjRweDtcbiAgICBtYXJnaW4tYm90dG9tOiA0MHB4O1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */
+
+    </style>
+    <style>.versions {
+    padding: 30px 0;
+}
+.text2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.versions__blocks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+.block {
+    padding: 40px;
+    border: 2px solid var(--light-dark-color);
+    background-color: #fff;
+    border-radius: 20px;
+}
+.block:hover{
+    border: 2px solid var(--accent-color);
+}
+.block_one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.economy_panel {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    background-color: var(--accent-color);
+    color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.license-banner {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    background-color: #f8f9fa;
+    border-radius: 20px;
+    text-align: center;
+}
+.license-banner-button {
+    font-size: 20px;
+    border: 1px solid #343434;
+    padding: 15px 40px;
+    color: #fff;
+    background-color: #343434;
+    border-radius: 10px;
+}
+.block_two {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+}
+.block_three {
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+}
+.version_name {
+    font-size: 24px;
+    font-weight: 600;
+}
+.version_price {
+    margin-top: 40px;
+    font-size: 40px;
+    color: var(--accent-color);
+}
+.version_design {
+    margin-top: 20px;
+    border: 1px solid var(--accent-color);
+    background-color: var(--accent-color);
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.version_design:hover {
+    background-color: var(--accent-color);
+ }
+ .version__options {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.version_option {
+    display: flex;
+    gap: 20px;
+}
+.version_option img{
+    width: 16px;
+    height: 16px;
+}
+
+/* Добавленные стили для иконок */
+.economy_panel p {
+    margin: 0;
+
+}
+.economy_panel {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 30px 0;
+}
+.economy_panel-big {
+    font-size: 64px;
+    font-weight: 600;
+}
+.economy_panel-little {
+    font-size: 24px;
+    font-weight: 400;
+}
+.license-banner {
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+}
+.license-banner-left{
+    text-align: left;
+}
+.license-banner-left p{
+    padding-bottom: 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jc3MvdmVyc2lvbnMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksZUFBZTtBQUNuQjtBQUNBO0lBQ0ksZUFBZTtJQUNmLGtCQUFrQjtJQUNsQixtQkFBbUI7QUFDdkI7QUFDQTtJQUNJLGFBQWE7SUFDYixxQ0FBcUM7SUFDckMsa0NBQWtDO0lBQ2xDLFNBQVM7QUFDYjtBQUNBO0lBQ0ksYUFBYTtJQUNiLHlDQUF5QztJQUN6QyxzQkFBc0I7SUFDdEIsbUJBQW1CO0FBQ3ZCO0FBQ0E7SUFDSSxxQ0FBcUM7QUFDekM7QUFDQTtJQUNJLGtCQUFrQjtJQUNsQixlQUFlO0FBQ25CO0FBQ0E7SUFDSSxrQkFBa0I7SUFDbEIsZUFBZTtJQUNmLHFDQUFxQztJQUNyQyxXQUFXO0lBQ1gsbUJBQW1CO0lBQ25CLGFBQWE7SUFDYixrQkFBa0I7QUFDdEI7QUFDQTtJQUNJLGtCQUFrQjtJQUNsQixlQUFlO0lBQ2YseUJBQXlCO0lBQ3pCLG1CQUFtQjtJQUNuQixrQkFBa0I7QUFDdEI7QUFDQTtJQUNJLGVBQWU7SUFDZix5QkFBeUI7SUFDekIsa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCx5QkFBeUI7SUFDekIsbUJBQW1CO0FBQ3ZCO0FBQ0E7SUFDSSxrQkFBa0I7SUFDbEIsZUFBZTtBQUNuQjtBQUNBO0lBQ0ksa0JBQWtCO0lBQ2xCLGVBQWU7QUFDbkI7QUFDQTtJQUNJLGVBQWU7SUFDZixnQkFBZ0I7QUFDcEI7QUFDQTtJQUNJLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2YsMEJBQTBCO0FBQzlCO0FBQ0E7SUFDSSxnQkFBZ0I7SUFDaEIscUNBQXFDO0lBQ3JDLHFDQUFxQztJQUNyQyxtQkFBbUI7SUFDbkIsV0FBVztJQUNYLGtCQUFrQjtJQUNsQixlQUFlO0FBQ25CO0FBQ0E7SUFDSSxxQ0FBcUM7Q0FDeEM7Q0FDQTtJQUNHLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2YsaUJBQWlCO0lBQ2pCLGFBQWE7SUFDYixzQkFBc0I7SUFDdEIsU0FBUztBQUNiO0FBQ0E7SUFDSSxhQUFhO0lBQ2IsU0FBUztBQUNiO0FBQ0E7SUFDSSxXQUFXO0lBQ1gsWUFBWTtBQUNoQjs7QUFFQSxpQ0FBaUM7QUFDakM7SUFDSSxTQUFTOztBQUViO0FBQ0E7SUFDSSxhQUFhO0lBQ2Isc0JBQXNCO0lBQ3RCLFNBQVM7SUFDVCxlQUFlO0FBQ25CO0FBQ0E7SUFDSSxlQUFlO0lBQ2YsZ0JBQWdCO0FBQ3BCO0FBQ0E7SUFDSSxlQUFlO0lBQ2YsZ0JBQWdCO0FBQ3BCO0FBQ0E7SUFDSSxrQkFBa0I7SUFDbEIsYUFBYTtJQUNiLG1CQUFtQjtBQUN2QjtBQUNBO0lBQ0ksZ0JBQWdCO0FBQ3BCO0FBQ0E7SUFDSSxvQkFBb0I7SUFDcEIsZUFBZTtJQUNmLGdCQUFnQjtBQUNwQiIsInNvdXJjZXNDb250ZW50IjpbIi52ZXJzaW9ucyB7XG4gICAgcGFkZGluZzogMzBweCAwO1xufVxuLnRleHQyIHtcbiAgICBmb250LXNpemU6IDMycHg7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIG1hcmdpbi1ib3R0b206IDQwcHg7XG59XG4udmVyc2lvbnNfX2Jsb2NrcyB7XG4gICAgZGlzcGxheTogZ3JpZDtcbiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCgzLCAxZnIpO1xuICAgIGdyaWQtdGVtcGxhdGUtcm93czogYXV0byBhdXRvIGF1dG87XG4gICAgZ2FwOiAyMHB4O1xufVxuLmJsb2NrIHtcbiAgICBwYWRkaW5nOiA0MHB4O1xuICAgIGJvcmRlcjogMnB4IHNvbGlkIHZhcigtLWxpZ2h0LWRhcmstY29sb3IpO1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XG4gICAgYm9yZGVyLXJhZGl1czogMjBweDtcbn1cbi5ibG9jazpob3ZlcntcbiAgICBib3JkZXI6IDJweCBzb2xpZCB2YXIoLS1hY2NlbnQtY29sb3IpO1xufVxuLmJsb2NrX29uZSB7XG4gICAgZ3JpZC1jb2x1bW46IDEgLyAyO1xuICAgIGdyaWQtcm93OiAxIC8gMjtcbn1cbi5lY29ub215X3BhbmVsIHtcbiAgICBncmlkLWNvbHVtbjogMSAvIDI7XG4gICAgZ3JpZC1yb3c6IDIgLyAzO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWFjY2VudC1jb2xvcik7XG4gICAgY29sb3I6ICNmZmY7XG4gICAgYm9yZGVyLXJhZGl1czogMjBweDtcbiAgICBwYWRkaW5nOiAyMHB4O1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cbi5saWNlbnNlLWJhbm5lciB7XG4gICAgZ3JpZC1jb2x1bW46IDEgLyAzO1xuICAgIGdyaWQtcm93OiAzIC8gNDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZjhmOWZhO1xuICAgIGJvcmRlci1yYWRpdXM6IDIwcHg7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xufVxuLmxpY2Vuc2UtYmFubmVyLWJ1dHRvbiB7XG4gICAgZm9udC1zaXplOiAyMHB4O1xuICAgIGJvcmRlcjogMXB4IHNvbGlkICMzNDM0MzQ7XG4gICAgcGFkZGluZzogMTVweCA0MHB4O1xuICAgIGNvbG9yOiAjZmZmO1xuICAgIGJhY2tncm91bmQtY29sb3I6ICMzNDM0MzQ7XG4gICAgYm9yZGVyLXJhZGl1czogMTBweDtcbn1cbi5ibG9ja190d28ge1xuICAgIGdyaWQtY29sdW1uOiAyIC8gMztcbiAgICBncmlkLXJvdzogMSAvIDM7XG59XG4uYmxvY2tfdGhyZWUge1xuICAgIGdyaWQtY29sdW1uOiAzIC8gNDtcbiAgICBncmlkLXJvdzogMSAvIDQ7XG59XG4udmVyc2lvbl9uYW1lIHtcbiAgICBmb250LXNpemU6IDI0cHg7XG4gICAgZm9udC13ZWlnaHQ6IDYwMDtcbn1cbi52ZXJzaW9uX3ByaWNlIHtcbiAgICBtYXJnaW4tdG9wOiA0MHB4O1xuICAgIGZvbnQtc2l6ZTogNDBweDtcbiAgICBjb2xvcjogdmFyKC0tYWNjZW50LWNvbG9yKTtcbn1cbi52ZXJzaW9uX2Rlc2lnbiB7XG4gICAgbWFyZ2luLXRvcDogMjBweDtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1hY2NlbnQtY29sb3IpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWFjY2VudC1jb2xvcik7XG4gICAgYm9yZGVyLXJhZGl1czogMTBweDtcbiAgICBjb2xvcjogI2ZmZjtcbiAgICBwYWRkaW5nOiAxMHB4IDIwcHg7XG4gICAgZm9udC1zaXplOiAyMHB4O1xufVxuLnZlcnNpb25fZGVzaWduOmhvdmVyIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1hY2NlbnQtY29sb3IpOyBcbiB9XG4gLnZlcnNpb25fX29wdGlvbnMge1xuICAgIG1hcmdpbi10b3A6IDIwcHg7XG4gICAgZm9udC1zaXplOiAxOHB4O1xuICAgIGxpbmUtaGVpZ2h0OiAyNHB4O1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICBnYXA6IDEwcHg7XG59XG4udmVyc2lvbl9vcHRpb24ge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZ2FwOiAyMHB4O1xufVxuLnZlcnNpb25fb3B0aW9uIGltZ3tcbiAgICB3aWR0aDogMTZweDtcbiAgICBoZWlnaHQ6IDE2cHg7XG59XG5cbi8qINCU0L7QsdCw0LLQu9C10L3QvdGL0LUg0YHRgtC40LvQuCDQtNC70Y8g0LjQutC+0L3QvtC6ICovXG4uZWNvbm9teV9wYW5lbCBwIHtcbiAgICBtYXJnaW46IDA7XG4gICAgXG59XG4uZWNvbm9teV9wYW5lbCB7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgIGdhcDogNDBweDtcbiAgICBwYWRkaW5nOiAzMHB4IDA7XG59XG4uZWNvbm9teV9wYW5lbC1iaWcge1xuICAgIGZvbnQtc2l6ZTogNjRweDtcbiAgICBmb250LXdlaWdodDogNjAwO1xufVxuLmVjb25vbXlfcGFuZWwtbGl0dGxlIHtcbiAgICBmb250LXNpemU6IDI0cHg7XG4gICAgZm9udC13ZWlnaHQ6IDQwMDtcbn1cbi5saWNlbnNlLWJhbm5lciB7XG4gICAgcGFkZGluZy1sZWZ0OiA0MHB4O1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cbi5saWNlbnNlLWJhbm5lci1sZWZ0e1xuICAgIHRleHQtYWxpZ246IGxlZnQ7XG59XG4ubGljZW5zZS1iYW5uZXItbGVmdCBwe1xuICAgIHBhZGRpbmctYm90dG9tOiAzMHB4O1xuICAgIGZvbnQtc2l6ZTogNDBweDtcbiAgICBmb250LXdlaWdodDogNjAwO1xufSJdLCJzb3VyY2VSb290IjoiIn0= */
+
+    </style>
+    <style>.footer-container {
+    background-color: #111111;
+
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.footer-column {
+    flex: 1 1;
+}
+
+.footer-column p {
+    margin: 0px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.footer-column ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 20px;
+}
+
+.footer-column ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jc3MvZm9vdGVyLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLHlCQUF5Qjs7QUFFN0I7QUFDQTtJQUNJLGFBQWE7SUFDYiw4QkFBOEI7SUFDOUIsYUFBYTtBQUNqQjs7QUFFQTtJQUNJLFNBQU87QUFDWDs7QUFFQTtJQUNJLFdBQVc7SUFDWCxtQkFBbUI7SUFDbkIsV0FBVztJQUNYLGVBQWU7SUFDZix5QkFBeUI7QUFDN0I7O0FBRUE7SUFDSSxVQUFVO0lBQ1YscUJBQXFCO0FBQ3pCOztBQUVBO0lBQ0ksbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksV0FBVztJQUNYLHFCQUFxQjtJQUNyQixlQUFlO0FBQ25COztBQUVBO0lBQ0ksMEJBQTBCO0FBQzlCIiwic291cmNlc0NvbnRlbnQiOlsiLmZvb3Rlci1jb250YWluZXIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzExMTExMTtcclxuICAgIFxyXG59XHJcbi5mb290ZXItY29udGVudCB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xyXG4gICAgcGFkZGluZzogMzBweDtcclxufVxyXG5cclxuLmZvb3Rlci1jb2x1bW4ge1xyXG4gICAgZmxleDogMTtcclxufVxyXG5cclxuLmZvb3Rlci1jb2x1bW4gcCB7XHJcbiAgICBtYXJnaW46IDBweDtcclxuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbiAgICBjb2xvcjogI2ZmZjtcclxuICAgIGZvbnQtc2l6ZTogMTJweDtcclxuICAgIHRleHQtdHJhbnNmb3JtOiB1cHBlcmNhc2U7XHJcbn1cclxuXHJcbi5mb290ZXItY29sdW1uIHVsIHtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgICBsaXN0LXN0eWxlLXR5cGU6IG5vbmU7XHJcbn1cclxuXHJcbi5mb290ZXItY29sdW1uIHVsIGxpIHtcclxuICAgIG1hcmdpbi1ib3R0b206IDIwcHg7XHJcbn1cclxuXHJcbi5mb290ZXItY29sdW1uIHVsIGxpIGF7XHJcbiAgICBjb2xvcjogI2ZmZjtcclxuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICAgIGZvbnQtc2l6ZTogMTZweDtcclxufVxyXG5cclxuLmZvb3Rlci1jb2x1bW4gdWwgbGkgYTpob3ZlciB7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcclxufSJdLCJzb3VyY2VSb290IjoiIn0= */
+
+    </style>
+    <style>/* Основные стили для блока обратной связи */
+.forms {
+    background: linear-gradient(135deg, #0099ff, #66ccff);
+    padding: 40px 20px;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.form-title {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.form-subtitle {
+    color: #e6f2ff;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-group input, .form-group textarea {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: calc(50% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 120px;
+    resize: none;
+    flex: 1 1 100%;
+}
+
+.form-footer {
+    width: 100%;
+    text-align: center;
+}
+
+.form-footer p {
+    color: #e6f2ff;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.form-footer a {
+    color: #e6f2ff;
+    text-decoration: underline;
+}
+
+.form-footer button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.form-footer button:hover {
+    background-color: #333;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9jc3MvZm9ybXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDRDQUE0QztBQUM1QztJQUNJLHFEQUFxRDtJQUNyRCxrQkFBa0I7SUFDbEIsbUJBQW1CO0lBQ25CLGdCQUFnQjtJQUNoQixjQUFjO0lBQ2QsbUJBQW1CO0FBQ3ZCO0FBQ0E7SUFDSSxXQUFXO0lBQ1gsZUFBZTtJQUNmLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLGNBQWM7SUFDZCxtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxhQUFhO0lBQ2IsbUJBQW1CO0lBQ25CLFNBQVM7QUFDYjs7QUFFQTtJQUNJLGFBQWE7SUFDYixlQUFlO0lBQ2YsU0FBUztJQUNULFdBQVc7QUFDZjs7QUFFQTtJQUNJLFlBQTBCO0lBQTFCLGNBQTBCO0lBQTFCLDRCQUEwQjtJQUMxQixhQUFhO0lBQ2Isa0JBQWtCO0lBQ2xCLHNCQUFzQjtJQUN0QixlQUFlO0FBQ25COztBQUVBO0lBQ0ksYUFBYTtJQUNiLFlBQVk7SUFDWixjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksV0FBVztJQUNYLGtCQUFrQjtBQUN0Qjs7QUFFQTtJQUNJLGNBQWM7SUFDZCxlQUFlO0lBQ2YsbUJBQW1CO0FBQ3ZCOztBQUVBO0lBQ0ksY0FBYztJQUNkLDBCQUEwQjtBQUM5Qjs7QUFFQTtJQUNJLHNCQUFzQjtJQUN0QixXQUFXO0lBQ1gsWUFBWTtJQUNaLGtCQUFrQjtJQUNsQixlQUFlO0lBQ2Ysa0JBQWtCO0lBQ2xCLGVBQWU7QUFDbkI7OztBQUdBO0lBQ0ksc0JBQXNCO0FBQzFCIiwic291cmNlc0NvbnRlbnQiOlsiLyog0J7RgdC90L7QstC90YvQtSDRgdGC0LjQu9C4INC00LvRjyDQsdC70L7QutCwINC+0LHRgNCw0YLQvdC+0Lkg0YHQstGP0LfQuCAqL1xyXG4uZm9ybXMge1xyXG4gICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDEzNWRlZywgIzAwOTlmZiwgIzY2Y2NmZik7XHJcbiAgICBwYWRkaW5nOiA0MHB4IDIwcHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG4gICAgbWF4LXdpZHRoOiA4MDBweDtcclxuICAgIG1hcmdpbjogMCBhdXRvO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogNDBweDtcclxufVxyXG4uZm9ybS10aXRsZSB7XHJcbiAgICBjb2xvcjogI2ZmZjtcclxuICAgIGZvbnQtc2l6ZTogNDhweDtcclxuICAgIG1hcmdpbi1ib3R0b206IDEwcHg7XHJcbn1cclxuXHJcbi5mb3JtLXN1YnRpdGxlIHtcclxuICAgIGNvbG9yOiAjZTZmMmZmO1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjBweDtcclxufVxyXG5cclxuLmNvbnRhY3QtZm9ybSB7XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIGdhcDogMjBweDtcclxufVxyXG5cclxuLmZvcm0tZ3JvdXAge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtd3JhcDogd3JhcDtcclxuICAgIGdhcDogMjBweDtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG59XHJcblxyXG4uZm9ybS1ncm91cCBpbnB1dCwgLmZvcm0tZ3JvdXAgdGV4dGFyZWEge1xyXG4gICAgZmxleDogMSAxIGNhbGMoNTAlIC0gMjBweCk7XHJcbiAgICBwYWRkaW5nOiAxMHB4O1xyXG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgI2NjYztcclxuICAgIGZvbnQtc2l6ZTogMTZweDtcclxufVxyXG5cclxuLmZvcm0tZ3JvdXAgdGV4dGFyZWEge1xyXG4gICAgaGVpZ2h0OiAxMjBweDtcclxuICAgIHJlc2l6ZTogbm9uZTtcclxuICAgIGZsZXg6IDEgMSAxMDAlO1xyXG59XHJcblxyXG4uZm9ybS1mb290ZXIge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5mb3JtLWZvb3RlciBwIHtcclxuICAgIGNvbG9yOiAjZTZmMmZmO1xyXG4gICAgZm9udC1zaXplOiAxMnB4O1xyXG4gICAgbWFyZ2luLWJvdHRvbTogMjBweDtcclxufVxyXG5cclxuLmZvcm0tZm9vdGVyIGEge1xyXG4gICAgY29sb3I6ICNlNmYyZmY7XHJcbiAgICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcclxufVxyXG5cclxuLmZvcm0tZm9vdGVyIGJ1dHRvbiB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDAwO1xyXG4gICAgY29sb3I6ICNmZmY7XHJcbiAgICBib3JkZXI6IG5vbmU7XHJcbiAgICBwYWRkaW5nOiAxMHB4IDIwcHg7XHJcbiAgICBmb250LXNpemU6IDE2cHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuIFxyXG5cclxuLmZvcm0tZm9vdGVyIGJ1dHRvbjpob3ZlciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzMzO1xyXG59XHJcbiJdLCJzb3VyY2VSb290IjoiIn0= */
+
+    </style>
+    <style>@font-face {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    src: url(https://softv.su/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf);
+}
+@font-face {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    src: url(https://softv.su/static/media/Montserrat-Bold.2c155811b35513d5beaa.ttf);
+}
+main {
+    color: var(--dark-color);
+    background-color: var(--light-dark-color);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+:root {
+    --accent-color: #02A9F7;
+    --light-dark-color: #e9e9e9;
+    --dark-color: #111111;
+}
+.text1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+}
+.text2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.text3 {
+    font-weight: 700;
+    font-size: 24px;
+}
+.text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+}
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+button, a {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8uL3NyYy9BcHAuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVdBO0lBQ0ksZ0JBQWdCO0lBQ2hCLHFDQUFxQztJQUNyQyw0Q0FBdUQ7QUFDM0Q7QUFDQTtJQUNJLGdCQUFnQjtJQUNoQixxQ0FBcUM7SUFDckMsNENBQW9EO0FBQ3hEO0FBQ0E7SUFDSSx3QkFBd0I7SUFDeEIseUNBQXlDO0lBQ3pDLHFDQUFxQztJQUNyQyxnQkFBZ0I7QUFDcEI7QUFDQTtJQUNJLHVCQUF1QjtJQUN2QiwyQkFBMkI7SUFDM0IscUJBQXFCO0FBQ3pCO0FBQ0E7SUFDSSxnQkFBZ0I7SUFDaEIsZUFBZTtJQUNmLGlCQUFpQjtBQUNyQjtBQUNBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGVBQWU7SUFDZixpQkFBaUI7SUFDakIsZ0JBQWdCO0lBQ2hCLG1CQUFtQjtBQUN2QjtBQUNBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGVBQWU7QUFDbkI7QUFDQTtJQUNJLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2YsaUJBQWlCO0FBQ3JCO0FBQ0E7SUFDSSxpQkFBaUI7SUFDakIsY0FBYztBQUNsQjtBQUNBO0lBQ0kscUNBQXFDO0lBQ3JDLGVBQWU7QUFDbkIiLCJzb3VyY2VzQ29udGVudCI6WyJAaW1wb3J0IHVybCguL2Nzcy9yZXNldC5jc3MpO1xuQGltcG9ydCB1cmwoLi9jc3MvbWVudS5jc3MpO1xuQGltcG9ydCB1cmwoLi9jc3MvaW5mby5jc3MpO1xuQGltcG9ydCB1cmwoLi9jc3MvdGFyZ2V0LmNzcyk7XG5AaW1wb3J0IHVybCguL2Nzcy9wcm9ncmFtcy5jc3MpO1xuQGltcG9ydCB1cmwoLi9jc3MvYWR2YW50YWdlcy5jc3MpO1xuQGltcG9ydCB1cmwoLi9jc3MvZmFjaWxpdGllcy5jc3MpO1xuQGltcG9ydCB1cmwoLi9jc3MvdmVyc2lvbnMuY3NzKTtcbkBpbXBvcnQgdXJsKC4vY3NzL2Zvb3Rlci5jc3MpO1xuQGltcG9ydCB1cmwoLi9jc3MvZm9ybXMuY3NzKTtcblxuQGZvbnQtZmFjZSB7XG4gICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICBmb250LWZhbWlseTogJ01vbnRzZXJyYXQnLCBzYW5zLXNlcmlmO1xuICAgIHNyYzogdXJsKC4uL3B1YmxpYy9hc3NldHMvZm9udHMvTW9udHNlcnJhdC1SZWd1bGFyLnR0Zik7XG59XG5AZm9udC1mYWNlIHtcbiAgICBmb250LXdlaWdodDogNzAwO1xuICAgIGZvbnQtZmFtaWx5OiAnTW9udHNlcnJhdCcsIHNhbnMtc2VyaWY7XG4gICAgc3JjOiB1cmwoLi4vcHVibGljL2Fzc2V0cy9mb250cy9Nb250c2VycmF0LUJvbGQudHRmKTtcbn1cbm1haW4ge1xuICAgIGNvbG9yOiB2YXIoLS1kYXJrLWNvbG9yKTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodC1kYXJrLWNvbG9yKTtcbiAgICBmb250LWZhbWlseTogJ01vbnRzZXJyYXQnLCBzYW5zLXNlcmlmO1xuICAgIGZvbnQtd2VpZ2h0OiA0MDA7XG59XG46cm9vdCB7XG4gICAgLS1hY2NlbnQtY29sb3I6ICMwMkE5Rjc7XG4gICAgLS1saWdodC1kYXJrLWNvbG9yOiAjZTllOWU5O1xuICAgIC0tZGFyay1jb2xvcjogIzExMTExMTtcbn1cbi50ZXh0MSB7XG4gICAgZm9udC13ZWlnaHQ6IDcwMDtcbiAgICBmb250LXNpemU6IDY0cHg7XG4gICAgbGluZS1oZWlnaHQ6IDc4cHg7XG59XG4udGV4dDIge1xuICAgIGZvbnQtd2VpZ2h0OiA3MDA7XG4gICAgZm9udC1zaXplOiA0OHB4O1xuICAgIGxpbmUtaGVpZ2h0OiA1OXB4O1xuICAgIG1hcmdpbi10b3A6IDgwcHg7XG4gICAgbWFyZ2luLWJvdHRvbTogNDBweDtcbn1cbi50ZXh0MyB7XG4gICAgZm9udC13ZWlnaHQ6IDcwMDtcbiAgICBmb250LXNpemU6IDI0cHg7XG59XG4udGV4dCB7XG4gICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICBmb250LXNpemU6IDE4cHg7XG4gICAgbGluZS1oZWlnaHQ6IDIwcHg7XG59XG4uY29udGFpbmVyIHtcbiAgICBtYXgtd2lkdGg6IDExNTBweDtcbiAgICBtYXJnaW46IDAgYXV0bztcbn1cbmJ1dHRvbiwgYSB7XG4gICAgZm9udC1mYW1pbHk6ICdNb250c2VycmF0Jywgc2Fucy1zZXJpZjtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG59Il0sInNvdXJjZVJvb3QiOiIifQ== */
+
+    </style>
+</head>
+<body>
+<div id="root">
+    <main>
+        <header>
+            <div class="container">
+                <div class="container-mini">
+                    <div class="menu">
+                        <div><a class="menu__logo" href="/"><img src="images/image7.jpg" alt="logo">
+                            <p>Автополив</p></a></div>
+                        <nav class="menu__nav">
+                            <ul class="nav__list tag">
+                                <li><a class="nav__link heading-text" href="#target-consumer">Для кого?</a></li>
+                                <li><a class="nav__link heading-text" href="#services">Преимущества</a></li>
+                                <li><a class="nav__link heading-text" href="#versions">Стоимость</a></li>
+                                <li>
+                                    <button class="nav__link nav__link-button">Подробнее</button>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="info" class="info">
+                <div class="container">
+                    <div class="info-content">
+                        <div><h1 class="text1">Автополив</h1>
+                            <p class="info-text">Позволяет сокращать время на занятия поливом, при этом сохраняя всю красоту участка</p>
+                        </div>
+                        <div class="info-picture"><img src="images/image2.jpg" alt=""></div>
+                    </div>
+                </div>
+            </section>
+            <section id="target-consumer" class="target-consumer">
+                <div class="container"><h2 class="text2">Для кого подходит?</h2>
+                    <div class="target-consumer__content">
+                        <div class="target-consumer__block"><img src="resourses/target-icon1.png" alt=""><img
+                                class="target-picture" src="images/image1.png" alt="">
+                            <p class="text3 target-text3">Школьники</p>
+                            <p class="target-text">Благодаря подробному методическому комплексу сделать первые шаги в
+                                робототехнике проще простого!</p></div>
+                        <div class="target__content-2col">
+                            <div class="target-consumer__block"><img src="resourses/target-icon2.png" alt="">
+                                <p class="text3 target-text3">Студенты СУЗов и ВУЗов</p>
+                                <p class="target-text">Благодаря большому количеству поддерживаемых языков
+                                    программирования студенты различных направлений смогут погрузиться в изучение
+                                    мобильной робототехники!</p></div>
+                            <div class="target-consumer__block"><img src="resourses/target-icon3.png" alt="">
+                                <p class="text3 target-text3">Слушатели курсов квалификации</p>
+                                <p class="target-text">Для проведения курсов преподавателям достаточно обычного кабинета
+                                    с ноутбуками или стационарными компьютерами, что позволит в том числе проводить
+                                    онлайн уроки по всему миру!</p></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="services" class="advantages">
+                <div class="container"><h2 class="text2">О нас</h2>
+                    <div class="advantages__blocks"><img src="images/prem1.png" alt=""><img src="images/prem2.png"
+                                                                                              alt=""><img
+                            src="images/prem3.png" alt=""></div>
+                </div>
+            </section>
+            <section class="facilities">
+                <div class="container"><h2 class="text2">Преимущества</h2><img
+                            src="images/image2.png" alt=""></div>
+            </section>
+            <section id="versions" class="versions">
+                <div class="container"><h2 class="text2">Ключевые различия версий</h2>
+                    <div class="versions__blocks">
+                        <div class="block block_one"><p class="version_name">Локальный</p>
+                            <p class="version_price">По запросу</p><a href="https://t.me/SoftVsupport_bot"
+                                                                      target="_blank" rel="noopener noreferrer"></a>
+                            <button class="version_design">Оформить версию</button>
+                            <div class="version__options">
+                                <div class="version_option"><img src="resourses/vers_i1.png" alt="">
+                                    <p>Методический комплекс с уроками и практическими работами на 144ч.</p></div>
+                                <div class="version_option"><img src="resourses/vers_i2.png" alt="">
+                                    <p>Добавление новых конкурсных полей и роботов российского рынка</p></div>
+                                <div class="version_option"><img src="resourses/vers_i3.png" alt="">
+                                    <p>Цифровой двойник (загрузка программного кода из симулятора в реального робота за
+                                        2 клика)</p></div>
+                            </div>
+                        </div>
+                        <div class="economy_panel"><p class="economy_panel-big"> &gt; 10 раз </p>
+                            <p class="economy_panel-little">экономия возрастает на 1 рабочее место</p></div>
+                        <div class="license-banner">
+                            <div class="license-banner-left"><p>Выберите лицензию, подходящую вам!</p><a
+                                    href="https://t.me/SoftVsupport_bot" target="_blank" rel="noopener noreferrer">
+                                <button class="license-banner-button">DEMO (Telegram)<img
+                                        src="resourses/promo-button.svg" alt=""></button>
+                            </a></div>
+                            <div class="license-banner-right"><img src="resourses/block-versions.png" alt="arrow icon">
+                            </div>
+                        </div>
+                        <div class="block block_two"><p class="version_name">Универсальный</p>
+                            <p class="version_price">По запросу</p><a href="https://t.me/SoftVsupport_bot"
+                                                                      target="_blank" rel="noopener noreferrer"></a>
+                            <button class="version_design">Оформить версию</button>
+                            <div class="version__options">
+                                <div class="version_option"><img src="resourses/vers_i1.png" alt="">
+                                    <p>Методический комплекс с уроками и практическими работами на 144ч.</p></div>
+                                <div class="version_option"><img src="resourses/vers_i2.png" alt="">
+                                    <p>Добавление новых конкурсных полей и роботов российского рынка</p></div>
+                                <div class="version_option"><img src="resourses/vers_i3.png" alt="">
+                                    <p>Цифровой двойник (загрузка программного кода из симулятора в реального робота за
+                                        2 клика)</p></div>
+                                <div class="version_option"><img src="resourses/vers_i4.png" alt="">
+                                    <p>Аккаунт с функцией управления лицензиями, ключи отражают количество рабочих
+                                        мест</p></div>
+                                <div class="version_option"><img src="resourses/vers_i5.png" alt="">
+                                    <p>Встроенный конструктор собственных моделей роботов</p></div>
+                                <div class="version_option"><img src="resourses/vers_i6.png" alt="">
+                                    <p>Дистанционный доступ к лицензии</p></div>
+                            </div>
+                        </div>
+                        <div class="block block_three"><p class="version_name">Максимальный</p>
+                            <p class="version_price">По запросу</p><a href="https://t.me/SoftVsupport_bot"
+                                                                      target="_blank" rel="noopener noreferrer"></a>
+                            <button class="version_design">Оформить версию</button>
+                            <div class="version__options">
+                                <div class="version_option"><img src="resourses/vers_i1.png" alt="">
+                                    <p>Методический комплекс с уроками и практическими работами на 144ч.</p></div>
+                                <div class="version_option"><img src="resourses/vers_i2.png" alt="">
+                                    <p>Добавление новых конкурсных полей и роботов российского рынка</p></div>
+                                <div class="version_option"><img src="resourses/vers_i3.png" alt="">
+                                    <p>Цифровой двойник (загрузка программного кода из симулятора в реального робота за
+                                        2 клика)</p></div>
+                                <div class="version_option"><img src="resourses/vers_i4.png" alt="">
+                                    <p>Аккаунт с функцией управления лицензиями, ключи отражают количество рабочих
+                                        мест</p></div>
+                                <div class="version_option"><img src="resourses/vers_i5.png" alt="">
+                                    <p>Встроенный конструктор собственных моделей роботов</p></div>
+                                <div class="version_option"><img src="resourses/vers_i6.png" alt="">
+                                    <p>Дистанционный доступ к лицензии</p></div>
+                                <div class="version_option"><img src="resourses/vers_i1.png" alt="">
+                                    <p>Методический комплекс с уроками и практическими работами на 256ч.</p></div>
+                                <div class="version_option"><img src="resourses/vers_i8.png" alt="">
+                                    <p>Курс уникальных упражнений от тренерского состава сборной России по
+                                        робототехнике</p></div>
+                                <div class="version_option"><img src="resourses/vers_i9.png" alt="">
+                                    <p>Симуляция реальных кейсов в промышленных условиях</p></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="application"></section>
+            <footer>
+                <div class="footer-container">
+                    <div class="container">
+                        <div class="footer-content">
+                            <div class="footer-column"><img src="images/image7.jpg" style="width:70px;height:70px" alt="logo"></div>
+                            <div class="footer-column">
+                                <ul>
+                                    <li><a href="#">Главная</a></li>
+                                    <li><a href="#target-consumer">Для кого</a></li>
+                                    <li><a href="#forms">+7 843 250 15 50</a></li>
+                                </ul>
+                            </div>
+                            <div class="footer-column">
+                                <ul>
+                                    <li><a href="#versions">Стоимость</a></li>
+                                    <li><a href="#versions">Локальный</a></li>
+                                    <li><a href="#versions">Универсальный</a></li>
+                                    <li><a href="#versions">Максимальный</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+    </main>
+</div>
+<!--
+  This HTML file is a template.
+  If you open it directly in the browser, you will see an empty page.
+
+  You can add webfonts, meta tags, or analytics to this file.
+  The build step will place the bundled scripts into the <body> tag.
+
+  To begin the development, run `npm start` or `yarn start`.
+  To create a production bundle, use `npm run build` or `yarn build`.
+-->
+
+
+<div id="torrent-scanner-popup" style="display: none;"></div>
+</body>
+</html>
